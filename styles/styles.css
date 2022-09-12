@@ -1,0 +1,149 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --background-color: #2f303a;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Buttons */
+.button {
+  cursor: pointer;
+}
+
+/* active  */
+/* Підсвічується кнопка, яка підсвічує поточну сторінку */
+.link.active {
+  color: var(--accent-color);
+}
+
+/* Titles */
+.title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+/* Logo */
+.logo {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: black;
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+/* Nav */
+/* Links */
+.link {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.link:hover,
+link:focus {
+  color: var(--accent-color);
+}
+
+.contact {
+  color: var(--secondary-text-color);
+}
+
+/* Hero */
+.hero {
+  background-color: var(--background-color);
+  text-align: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero > h1 {
+  color: #ffffff;
+}
+
+/* main button  */
+.primary.button {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+/* Advantages  */
+.advantage-title {
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantage-text {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* team */
+.team {
+  background-color: #f5f4fa;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.job-title {
+  color: var(--secondary-text-color);
+}
+
+/* footer */
+footer {
+  background-color: var(--background-color);
+}
+
+.footer-text {
+  color: #ffffff;
+}
+
+.address-list {
+  font-style: normal;
+}
+
+.address-contact {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-item > .link {
+  line-height: 1.71;
+  font-weight: 400;
+}
